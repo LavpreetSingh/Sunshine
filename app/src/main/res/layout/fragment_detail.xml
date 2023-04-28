@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sunshine.DetailActivity$PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+
+            android:layout_height="200dp"
+            android:layout_width="30dp"
+            android:layout_marginTop="30dp"
+android:id="@+id/imgviewsrc"
+            android:layout_weight="1"
+
+            android:src="@drawable/cupcake" />
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:text="Description"
+                android:id="@+id/desc_textview"/>
+            <TextView
+                android:id="@+id/weathertype"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="clear"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+  android:layout_margin="40dp"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:text="High"
+    android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/highid"
+android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="30sp"
+        android:text="14"/>
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Low"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/lowid"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+android:layout_marginLeft="75dp"
+            android:text="14"
+            android:textSize="30sp" />
+    </LinearLayout>
+</LinearLayout>
